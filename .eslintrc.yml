@@ -45,5 +45,5 @@ rules:
   lodash/import-scope: off
   lodash/preferred-alias: off
   lodash/prop-shorthand: off
-  lodash/prefer-lodash-method: [ error, { ignoreObjects: [ BbPromise, path ] } ]
+  lodash/prefer-lodash-method: [ error, { ignoreObjects: [ BbPromise, path, f, Object ] } ]
   max-len: [ error, { code: 120, ignoreStrings: true, ignoreComments: true, ignoreTemplateLiterals: true } ]

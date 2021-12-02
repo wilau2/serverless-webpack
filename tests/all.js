@@ -10,4 +10,5 @@ describe('serverless-webpack', () => {
   require('./wpwatch.test');
   require('./runPluginSupport.test');
   require('./prepareStepOfflineInvoke.test');
+  require('./integration.test');
 });
